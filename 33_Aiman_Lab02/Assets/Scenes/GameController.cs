@@ -59,5 +59,59 @@ public class GameController : MonoBehaviour
             }
 
         }
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            //check if cube is white color //
+            if (Cube1.GetComponent<MeshRenderer>().material.color == Color.white)
+            {
+                //check turnCounter for even number//
+                if (turnCounter % 2 == 1)
+                {
+                    // change color to red//
+                    Cube1.GetComponent<MeshRenderer>().material.color = Color.red;
+                }
+                else
+                {
+                    // change color to green//
+                    print("Player 2 Turn");
+                    Cube1.GetComponent<MeshRenderer>().material.color = Color.green;
+                }
+                //increase the turn counter//
+                turnCounter++;
+
+             
+              
+
+            }
+
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            //check if cube is white color //
+            if (Cube2.GetComponent<MeshRenderer>().material.color == Color.white)
+            {
+                //check turnCounter for even number//
+                if (turnCounter % 2 == 1)
+                {
+                    // change color to red//
+                    Cube2.GetComponent<MeshRenderer>().material.color = Color.red;
+                }
+                else
+                {
+                    // change color to green//
+                    print("Player 2 Turn");
+                    Cube2.GetComponent<MeshRenderer>().material.color = Color.green;
+                }
+
+                //increase the turn counter//
+                turnCounter++;
+
+               
+               
+
+            }
+
+        }
     }
 }
