@@ -53,9 +53,10 @@ public class GameController : MonoBehaviour
                 }
                 //increase the turn counter//
                 turnCounter++;
+                // check if there is  a win //
+                CheckRedWinCondition();
 
-                
-              
+
             }
 
         }
@@ -79,9 +80,9 @@ public class GameController : MonoBehaviour
                 }
                 //increase the turn counter//
                 turnCounter++;
+                CheckRedWinCondition();
 
-             
-              
+
 
             }
 
@@ -106,9 +107,9 @@ public class GameController : MonoBehaviour
 
                 //increase the turn counter//
                 turnCounter++;
+                CheckRedWinCondition();
 
-               
-               
+
 
             }
 
@@ -135,7 +136,7 @@ public class GameController : MonoBehaviour
 
                 //increase the turn counter//
                 turnCounter++;
-              
+                CheckRedWinCondition();
             }
 
         }
@@ -159,7 +160,7 @@ public class GameController : MonoBehaviour
 
                 //increase the turn counter//
                 turnCounter++;
-              
+                CheckRedWinCondition();
             }
 
         }
@@ -183,7 +184,7 @@ public class GameController : MonoBehaviour
 
                 //increase the turn counter//
                 turnCounter++;
-                
+                CheckRedWinCondition();
             }
 
         }
@@ -209,7 +210,7 @@ public class GameController : MonoBehaviour
 
                 //increase the turn counter//
                 turnCounter++;
-              
+                CheckRedWinCondition();
             }
 
         }
@@ -233,7 +234,7 @@ public class GameController : MonoBehaviour
 
                 //increase the turn counter//
                 turnCounter++;
-                
+                CheckRedWinCondition();
             }
 
         }
@@ -257,7 +258,7 @@ public class GameController : MonoBehaviour
 
                 //increase the turn counter//
                 turnCounter++;
-               
+                CheckRedWinCondition();
             }
 
         }
