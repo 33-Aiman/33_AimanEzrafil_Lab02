@@ -32,6 +32,32 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // Getting user input//
+        //1st row of inputs //
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            //check if cube is white color //
+            if (Cube0.GetComponent<MeshRenderer>().material.color == Color.white)
+            {
+                //check turnCounter for even number//
+                if (turnCounter % 2 == 1)
+                {
+                    // change color to red//
+                    Cube0.GetComponent<MeshRenderer>().material.color = Color.red;
+                }
+                else
+                {
+                    // change color to green//
+                    print("Player 2 Turn");
+                    Cube0.GetComponent<MeshRenderer>().material.color = Color.green;
+                }
+                //increase the turn counter//
+                turnCounter++;
+
+                
+              
+            }
+
+        }
     }
 }
