@@ -113,5 +113,81 @@ public class GameController : MonoBehaviour
             }
 
         }
+
+        //2nd row of inputs //
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            //check if cube is white color //
+            if (Cube3.GetComponent<MeshRenderer>().material.color == Color.white)
+            {
+                //check turnCounter for even number//
+                if (turnCounter % 2 == 1)
+                {
+                    // change color to red//
+                    Cube3.GetComponent<MeshRenderer>().material.color = Color.red;
+                }
+                else
+                {
+                    // change color to green//
+                    print("Player 2 Turn");
+                    Cube3.GetComponent<MeshRenderer>().material.color = Color.green;
+                }
+
+                //increase the turn counter//
+                turnCounter++;
+              
+            }
+
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            //check if cube is white color //
+            if (Cube4.GetComponent<MeshRenderer>().material.color == Color.white)
+            {
+                //check turnCounter for even number//
+                if (turnCounter % 2 == 1)
+                {
+                    // change color to red//
+                    Cube4.GetComponent<MeshRenderer>().material.color = Color.red;
+                }
+                else
+                {
+                    // change color to green//
+                    print("Player 2 Turn");
+                    Cube4.GetComponent<MeshRenderer>().material.color = Color.green;
+                }
+
+                //increase the turn counter//
+                turnCounter++;
+              
+            }
+
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            //check if cube is white color //
+            if (Cube5.GetComponent<MeshRenderer>().material.color == Color.white)
+            {
+                //check turnCounter for even number//
+                if (turnCounter % 2 == 1)
+                {
+                    // change color to red//
+                    Cube5.GetComponent<MeshRenderer>().material.color = Color.red;
+                }
+                else
+                {
+                    // change color to green//
+                    print("Player 2 Turn");
+                    Cube5.GetComponent<MeshRenderer>().material.color = Color.green;
+                }
+
+                //increase the turn counter//
+                turnCounter++;
+                
+            }
+
+        }
+
+
     }
 }
