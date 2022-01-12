@@ -443,15 +443,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8550c840313e08f40908d3cfdd6ace90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cube0: {fileID: 0}
-  Cube1: {fileID: 0}
-  Cube2: {fileID: 0}
-  Cube3: {fileID: 0}
-  Cube4: {fileID: 0}
-  Cube5: {fileID: 0}
-  Cube6: {fileID: 0}
-  Cube7: {fileID: 0}
-  Cube8: {fileID: 0}
+  Cube0: {fileID: 601140133}
+  Cube1: {fileID: 546638105}
+  Cube2: {fileID: 1982576074}
+  Cube3: {fileID: 1309635774}
+  Cube4: {fileID: 450625218}
+  Cube5: {fileID: 132453551}
+  Cube6: {fileID: 237925230}
+  Cube7: {fileID: 2059251807}
+  Cube8: {fileID: 231235995}
 --- !u!1 &450625218
 GameObject:
   m_ObjectHideFlags: 0
