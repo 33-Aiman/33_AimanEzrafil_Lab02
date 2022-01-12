@@ -55,7 +55,7 @@ public class GameController : MonoBehaviour
                 turnCounter++;
                 // check if there is  a win //
                 CheckRedWinCondition();
-
+                CheckGreenWinCondition();
 
             }
 
@@ -81,7 +81,7 @@ public class GameController : MonoBehaviour
                 //increase the turn counter//
                 turnCounter++;
                 CheckRedWinCondition();
-
+                CheckGreenWinCondition();
 
 
             }
@@ -108,7 +108,7 @@ public class GameController : MonoBehaviour
                 //increase the turn counter//
                 turnCounter++;
                 CheckRedWinCondition();
-
+                CheckGreenWinCondition();
 
 
             }
@@ -137,6 +137,7 @@ public class GameController : MonoBehaviour
                 //increase the turn counter//
                 turnCounter++;
                 CheckRedWinCondition();
+                CheckGreenWinCondition();
             }
 
         }
@@ -161,6 +162,7 @@ public class GameController : MonoBehaviour
                 //increase the turn counter//
                 turnCounter++;
                 CheckRedWinCondition();
+                CheckGreenWinCondition();
             }
 
         }
@@ -185,6 +187,7 @@ public class GameController : MonoBehaviour
                 //increase the turn counter//
                 turnCounter++;
                 CheckRedWinCondition();
+                CheckGreenWinCondition();
             }
 
         }
@@ -211,6 +214,7 @@ public class GameController : MonoBehaviour
                 //increase the turn counter//
                 turnCounter++;
                 CheckRedWinCondition();
+                CheckGreenWinCondition();
             }
 
         }
@@ -235,6 +239,7 @@ public class GameController : MonoBehaviour
                 //increase the turn counter//
                 turnCounter++;
                 CheckRedWinCondition();
+                CheckGreenWinCondition();
             }
 
         }
@@ -259,6 +264,7 @@ public class GameController : MonoBehaviour
                 //increase the turn counter//
                 turnCounter++;
                 CheckRedWinCondition();
+                CheckGreenWinCondition();
             }
 
         }
