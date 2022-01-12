@@ -13,10 +13,20 @@ public class GameController : MonoBehaviour
     public GameObject Cube6;
     public GameObject Cube7;
     public GameObject Cube8;
+
+    private int turnCounter;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Cube0.GetComponent<MeshRenderer>().material.color = Color.white;
+        Cube1.GetComponent<MeshRenderer>().material.color = Color.white;
+        Cube2.GetComponent<MeshRenderer>().material.color = Color.white;
+        Cube3.GetComponent<MeshRenderer>().material.color = Color.white;
+        Cube4.GetComponent<MeshRenderer>().material.color = Color.white;
+        Cube5.GetComponent<MeshRenderer>().material.color = Color.white;
+        Cube6.GetComponent<MeshRenderer>().material.color = Color.white;
+        Cube7.GetComponent<MeshRenderer>().material.color = Color.white;
+        Cube8.GetComponent<MeshRenderer>().material.color = Color.white;
     }
 
     // Update is called once per frame
