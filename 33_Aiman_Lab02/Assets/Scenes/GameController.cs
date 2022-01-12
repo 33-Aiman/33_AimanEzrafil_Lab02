@@ -188,6 +188,80 @@ public class GameController : MonoBehaviour
 
         }
 
+        //3rd row of inputs//
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            //check if cube is white color //
+            if (Cube6.GetComponent<MeshRenderer>().material.color == Color.white)
+            {
+                //check turnCounter for even number//
+                if (turnCounter % 2 == 1)
+                {
+                    // change color to red//
+                    Cube6.GetComponent<MeshRenderer>().material.color = Color.red;
+                }
+                else
+                {
+                    // change color to green//
+                    print("Player 2 Turn");
+                    Cube6.GetComponent<MeshRenderer>().material.color = Color.green;
+                }
+
+                //increase the turn counter//
+                turnCounter++;
+              
+            }
+
+        }
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            //check if cube is white color //
+            if (Cube7.GetComponent<MeshRenderer>().material.color == Color.white)
+            {
+                //check turnCounter for even number//
+                if (turnCounter % 2 == 1)
+                {
+                    // change color to red//
+                    Cube7.GetComponent<MeshRenderer>().material.color = Color.red;
+                }
+                else
+                {
+                    // change color to green//
+                    print("Player 2 Turn");
+                    Cube7.GetComponent<MeshRenderer>().material.color = Color.green;
+                }
+
+                //increase the turn counter//
+                turnCounter++;
+                
+            }
+
+        }
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            //check if cube is white color //
+            if (Cube8.GetComponent<MeshRenderer>().material.color == Color.white)
+            {
+                //check turnCounter for even number//
+                if (turnCounter % 2 == 1)
+                {
+                    // change color to red//
+                    Cube8.GetComponent<MeshRenderer>().material.color = Color.red;
+                }
+                else
+                {
+                    // change color to green//
+                    print("Player 2 Turn");
+                    Cube8.GetComponent<MeshRenderer>().material.color = Color.green;
+                }
+
+                //increase the turn counter//
+                turnCounter++;
+               
+            }
+
+        }
+
 
     }
 }
